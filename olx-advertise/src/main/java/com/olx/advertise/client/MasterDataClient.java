@@ -10,7 +10,7 @@ import com.olx.advertise.vo.AdvertisementCategory;
 import com.olx.advertise.vo.AdvertisementStatus;
 
 
-@FeignClient("OLX-MASTERDATA")
+@FeignClient("OLX-GATEWAY")
 public interface MasterDataClient {
 	
 	@GetMapping("/master-data/category")
